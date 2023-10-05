@@ -11,7 +11,7 @@ import mysql.connector
 app = Flask(__name__)
 # cnx (conexão?) ligando a = conectar.conexão.mysql(usuário='', senha='', banco de dados='')
 cnx = mysql.connector.connect(user='sandu', password='1234', database='POS')
-# cursor ligando a = cnx.cursor() (conexão de cursor?)
+# cursor ligando a = cnx.cursor() (cnx = conexão ao banco de dados mysql, como está na linha 12, 13)
 cursor = cnx.cursor()
 
 # rota do.@app na('raíz da aplicação')
